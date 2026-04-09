@@ -1,0 +1,13 @@
+data:
+  raw_path: "data_raw"
+  processed_path: "data_processed/sales_ca1_clean.csv"
+  store: "CA_1"
+
+model:
+  horizons: [30, 7]
+  input_size: 90
+  max_steps: 1000
+  freq: "D"
+
+paths:
+  models_dir: "models"

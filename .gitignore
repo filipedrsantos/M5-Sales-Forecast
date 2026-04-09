@@ -1,0 +1,17 @@
+# Folders to ignore
+data_raw/
+data_processed/
+models/
+lightning_logs/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Testing / dev
+.pytest_cache/
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db

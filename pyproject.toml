@@ -1,0 +1,15 @@
+[project]
+name = "poetry add $(pip freeze | awk -f '==' '{print $1}')"
+version = "0.1.0"
+description = "M5 Sales Forecasting project with NHITS model, FastAPI API, and Streamlit dashboard"
+authors = [
+    {name = "Filipe Santos"}
+]
+requires-python = ">=3.10"
+dependencies = [
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
