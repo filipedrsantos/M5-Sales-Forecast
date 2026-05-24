@@ -2,7 +2,7 @@
 
 ## TL;DR
 End-to-end demand forecasting system for intermittent retail sales using NHITS.  
-Includes data pipeline, feature engineering, API (FastAPI), dashboard (Streamlit), and testing suite.  
+Includes data pipeline, feature engineering, API (FastAPI), dashboard (Streamlit), and testing.  
 **Key result:** Lag-based features significantly improve performance on sparse time series.
 
 ---
@@ -112,7 +112,7 @@ M5-Sales-Forecast/
 ## Setup
 
 ### Clone repository
-* git clone https://github.com/<your-username>/M5-Sales-Forecast.git  
+* git clone https://github.com/filipedrsantos/M5-Sales-Forecast.git  
 * cd M5-Sales-Forecast  
 
 ### Install dependencies
